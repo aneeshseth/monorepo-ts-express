@@ -2,8 +2,6 @@
 import React, {useEffect} from 'react'
 import axios from 'axios'
 axios.defaults.withCredentials = true
-
-
 async function page() {
   async function fetchUser() {
     const headers = {
